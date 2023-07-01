@@ -1,0 +1,79 @@
+/* 
+- some text in uppercase
+gray background colour
+-big black border
+link and button
+list item bullet points are square
+link is black and hover state underline dissappears
+hover the button invert the color
+ */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border: 5px solid black;
+}
+
+h2,
+h4,
+button {
+  text-transform: uppercase;
+}
+
+h2 {
+  background-color: #eee;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+p,
+li {
+  font-size: 14px;
+}
+
+li {
+  list-style-type: square;
+}
+
+a:link {
+  font-size: 15px;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.shoe-name {
+  font-size: 22px;
+}
+
+.free-shipping {
+  text-transform: uppercase;
+  color: #aaa;
+}
